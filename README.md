@@ -13,10 +13,10 @@
 
 - Three Subscriber
 
-![alt text](sub1.jpeg)
+![alt text](sub1.png)
 
-![alt text](sub2.jpeg)
+![alt text](sub2.png)
 
-![alt text](sub3.jpeg)
+![alt text](sub3.png)
 
 - Kita bisa melihat bahwa spike pesan yang tinggi telah berkurang. Ini disebabkan oleh setiap subscriber menerima data yang unik ketika publisher mengirimkan sejumlah besar data ke queue. Setiap pelanggan berfungsi seperti aplikasi tersendiri sehingga proses pengambilan data dari antrian pesan terpisah. Begitu data diambil dari antrian pesan, pesan akan dihapus dan tidak dapat digunakan oleh aplikasi lain.
